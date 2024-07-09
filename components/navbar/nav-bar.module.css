@@ -1,0 +1,9 @@
+.header{
+    border: 1px solid #052E70
+}
+
+.cart-wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

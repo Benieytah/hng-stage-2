@@ -1,0 +1,140 @@
+import dell from '@/assets/dell.png';
+import printer from '@/assets/printer.png';
+import hp from '@/assets/hp.png';
+import intel from '@/assets/intel.png';
+import solar from '@/assets/solar.png';
+import panel from '@/assets/panel.png';
+import alienware from '@/assets/alienware.png';
+import transform from '@/assets/transform.png';
+
+export const products = [
+  {
+    id: 1,
+    name: 'Dell Vostro',
+    image: dell,
+    price: 999.0,
+    review: 4,
+    isNew: true,
+    slug: 'dell-vostro',
+    category: 'computers',
+    desc: '<ul><li>Ultra slim with unmatched performance</li><li>256GB SSD provides room to store all your important files</li><li>Windows 11</li><li>Long lasting battery</li></ul>',
+    details: {
+      brand: 'HP',
+      productCode: 125643,
+      color: 'biege',
+    },
+  },
+  {
+    id: 2,
+    name: 'Multifunctional Printer',
+    image: printer,
+    price: 999.0,
+    review: 4,
+    isOnSale: true,
+    salePercentage: 10,
+    slug: 'multi-printer',
+    category: 'printers',
+    desc: '<ul><li>Ultra slim with unmatched performance</li><li>256GB SSD provides room to store all your important files</li><li>Windows 11</li><li>Long lasting battery</li></ul>',
+    details: {
+      brand: 'HP',
+      productCode: 125643,
+      color: 'biege',
+    },
+  },
+  {
+    id: 3,
+    name: 'Hp evo Intel',
+    image: intel,
+    price: 999.0,
+    review: 4,
+    liked: true,
+    slug: 'hp-evo',
+    category: 'computers',
+    desc: '<ul><li>Ultra slim with unmatched performance</li><li>256GB SSD provides room to store all your important files</li><li>Windows 11</li><li>Long lasting battery</li></ul>',
+    details: {
+      brand: 'HP',
+      productCode: 125643,
+      color: 'biege',
+    },
+  },
+  {
+    id: 4,
+    name: 'Panel solar s547',
+    image: solar,
+    price: 999.0,
+    review: 4,
+    isTop: true,
+    slug: 'solar-s547',
+    category: 'solar-panel',
+    desc: '<ul><li>Ultra slim with unmatched performance</li><li>256GB SSD provides room to store all your important files</li><li>Windows 11</li><li>Long lasting battery</li></ul>',
+    details: {
+      brand: 'HP',
+      productCode: 125643,
+      color: 'biege',
+    },
+  },
+  {
+    id: 5,
+    name: 'Panel Solar PRO',
+    image: panel,
+    price: 990.0,
+    review: 4,
+    isTop: true,
+    slug: 'solar-pro',
+    category: 'solar-panel',
+    desc: '<ul><li>Ultra slim with unmatched performance</li><li>256GB SSD provides room to store all your important files</li><li>Windows 11</li><li>Long lasting battery</li></ul>',
+    details: {
+      brand: 'HP',
+      productCode: 125643,
+      color: 'biege',
+    },
+  },
+  {
+    id: 6,
+    name: 'Impresona Multifunctional HP',
+    image: hp,
+    price: 990.0,
+    review: 4,
+    isOnSale: true,
+    salePercentage: 25,
+    slug: 'multi-hp',
+    category: 'printers',
+    desc: '<ul><li>Ultra slim with unmatched performance</li><li>256GB SSD provides room to store all your important files</li><li>Windows 11</li><li>Long lasting battery</li></ul>',
+    details: {
+      brand: 'HP',
+      productCode: 125643,
+      color: 'biege',
+    },
+  },
+  {
+    id: 7,
+    name: 'HP Transform',
+    image: transform,
+    price: 990.0,
+    review: 4,
+    isSoldout: true,
+    slug: 'hp-transform',
+    category: 'computers',
+    desc: '<ul><li>Ultra slim with unmatched performance</li><li>256GB SSD provides room to store all your important files</li><li>Windows 11</li><li>Long lasting battery</li></ul>',
+    details: {
+      brand: 'HP',
+      productCode: 125643,
+      color: 'biege',
+    },
+  },
+  {
+    id: 8,
+    name: 'Alienware x15',
+    image: alienware,
+    price: 990.0,
+    review: 4,
+    slug: 'alienware-x15',
+    category: 'computers',
+    desc: '<ul><li>Ultra slim with unmatched performance</li><li>256GB SSD provides room to store all your important files</li><li>Windows 11</li><li>Long lasting battery</li></ul>',
+    details: {
+      brand: 'HP',
+      productCode: 125643,
+      color: 'biege',
+    },
+  },
+];
