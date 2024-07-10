@@ -13,16 +13,12 @@
     top: 266px;
     left: 248px;
     gap: 29px;
-    opacity: 0px;
-
 
 }
 .dell{
     width: 341px;
 height: 74px;
 top: 28px;
-gap: 0px;
-opacity: 0px;
 font-size: 64px;
 font-weight: 700;
 line-height: 73.59px;
@@ -35,8 +31,6 @@ color:rgba(101, 113, 127, 1);
     width: 297px;
 height: 38px;
 left: 2px;
-gap: 0px;
-opacity: 0px;
 font-size: 40px;
 font-weight: 700;
 line-height: 46px;
